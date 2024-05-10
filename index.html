@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            max-width: 1200px;
+            flex-wrap: wrap;
+        }
+        figure {
+            margin: 10px;
+            text-align: center;
+        }
+        img {
+            width: 200px; /* or any size */
+            height: 200px; /* maintain aspect ratio */
+            border-radius: 10px;
+        }
+        figcaption {
+            margin-top: 8px;
+        }
+        button {
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #cccccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <figure>
+            <img src="slaves.jpg" alt="slaves" style="height: 300px; border-radius: 50px; width: 360px;">
+            <figcaption><h2>Slaves Family Pack $2.99</h2></figcaption>
+            <figcaption><a href="registration.html"><button>Buy</button></a></figcaption>
+            </figure>
+            <figure>
+                <img src="muslim.jpg" alt="slaves" style="height: 300px; border-radius: 50px; width: 360px;">
+                <figcaption><h2>Muslim Bombers $3.99(Lots of experince)</h2></figcaption>
+                <figcaption><a href="registration.html"><button>Buy</button></a></figcaption>
+                </figure>
+                <figure>
+                    <img src="Child.jpg" alt="slaves" style="height: 300px; border-radius: 50px; width: 360px;">
+                    <figcaption><h2>Individual Child Slaves $0.50</h2></figcaption>
+                    <figcaption><a href="registration.html"><button>Buy</button></a></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="men.jpg" alt="slaves" style="height: 300px; border-radius: 50px; width: 360px;">
+                        <figcaption><h2>Individual Man $0.99</h2></figcaption>
+                        <figcaption><a href="registration.html"><button>Buy</button></a></figcaption>
+                        </figure>
+    </div>
+</body>
+</html>
